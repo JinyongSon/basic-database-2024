@@ -20,7 +20,6 @@
 - 데이터베이스 개념
     - 데이터를 보관, 관리, 서비스하는 시스템
     - Data, Information, Knowlege 개념
-
     - DBMS > Database > Data(model)
 
 - DB언어
