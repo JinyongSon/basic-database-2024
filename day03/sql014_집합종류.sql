@@ -6,7 +6,7 @@ SELECT [name]
   FROM Customer
  WHERE custid IN (SELECT DISTINCT custid FROM Orders);
 
--- 합집합
+-- 합집합 중복을 허용안함
 SELECT [name]
   FROM Customer
  UNION
