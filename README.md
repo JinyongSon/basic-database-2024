@@ -303,6 +303,10 @@ IoT 개발자과정 SQLServer 학습 리포지토리
     - 인덱스가 설정되면 성능이 어떤지 비교
     - 더미 생성시 100만건으로 제약을 두고 시작
 
+    <!-- md 주석. ![인덱스](https://raw.githubusercontent.com/hugoMGSung/basic-database-2024/main/images/db006.png) -->    
+    <!-- html img태그가 이미지 사이즈 조정 가능 -->
+    <img src="https://raw.githubusercontent.com/JinyongSon/basic-database-2024/main/images/db006.png" width="870">
+
 ## 8일차
 - 인덱스 예제
 - 정규화
@@ -327,3 +331,26 @@ IoT 개발자과정 SQLServer 학습 리포지토리
                 - 일반 : 기본 데이터베이스 hr 선택
                 - 사용자매핑 : hr 선택, 데이터베이스 역할 멤버 : db_owner 추가 선택
     2. HR사용자 로그인()
+        - SELECT
+        - WHERE, ORDER BY
+        - FUNCTION
+        - AGGREGATE FUNC
+        - JOIN
+        - SET ...
+
+## 9일차
+- 실무실습
+    - 쿼리실습
+        - 기본 SELECT, WHERE, ORDER BY 
+        - 집계합수 GROUP BY, ROLLUP
+        - JOIN, SUBQUERY, UNION ...
+        - CASE WHEN THEN END...
+        - 내장함수 ... 
+
+    ![HR_ERD](https://raw.githubusercontent.com/JinyongSon/basic-database-2024/main/images/db007.png)
+
+- 공부를 더할 부분
+    - 트랜잭션 
+    - DB보안 백업과 복원
+    - 모델링 + 정규화
+    - 데이터모델링 실습
